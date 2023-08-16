@@ -1,0 +1,146 @@
+* {margin: 0; padding: 0;}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+	background-color: white;
+	color:blue;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+}
+
+header {
+	font-family: 'Montserrat', sans-serif;
+	height: 100px;
+	margin: 1px;
+	border-bottom: 1px solid #dbdbdb;
+}
+
+header a:hover {
+	opacity: 0.5;
+}
+
+
+.logo a{
+	padding: 10px;
+	padding-top: 38px;
+	padding-left: 50px;
+	width: 250px;
+	display: inline-flex;
+	float: left;
+	text-decoration: none;
+	font-size: 18px;
+
+}
+
+
+
+
+/* NAV */
+nav ul, nav li {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+}
+
+nav li a {
+	font-size: 20px;
+	color: black;
+	display: inline-block;
+	padding: 10px;
+	border-radius: 5px;
+  	text-decoration: none;
+}
+
+.work, .work2,.work3,.work4,.work5,.work6,.work7,.work8,.work9 {
+	background-color: white;
+	margin-top: 20.5px;
+	margin-left: 20.5px;
+	display: inline-block;
+	transition: all 0.3s ease;
+}
+
+.work img,.work2 img,.work3 img,.work4 img,.work5 img,.work6 img {
+	width: 300px;
+	height: 180px;
+}
+
+
+	
+.work a, .work2 a, .work3 a,.work4 a,.work5 a,.work6 a {
+	font-size: 35px;
+	color: #2e353d;
+}
+
+#cuadrado:hover a{
+    opacity: 0.6;
+}
+
+#cuadrado:hover img{
+	opacity: 0.6;
+}
+
+section a {
+	text-decoration: none;
+	color: #cf5142;
+}
+
+section a:hover {
+	color: white;
+}
+
+section {
+	padding-left: 28px;
+	padding-right: 28px;
+}
+
+.images{
+	width: 75%;
+	float: right;
+}
+
+.images img{
+	width: 98%;
+	margin-left: 1%;
+}
+
+
+/* PROJECTOS */
+
+.desc p {
+	text-align: justify;
+	margin-left: 50px;
+	color: #949494; 
+	width: 20%;
+	float: left;
+}
+
+.desc h1 {
+	text-align: left;
+	margin-top: 50px;
+	margin-left: 10%;
+	color: #707070; 
+	font-size: 22px;
+	font-weight: 400;
+}
+
+.desc h2 {
+	text-align: left;
+	margin-top: 50px;
+	margin-left: 6.5%;
+	color: #707070; 
+	font-size: 22px;
+	font-weight: 400;
+}
+
+.desc h3 {
+	text-align: left;
+	margin-top: 50px;
+	margin-left: 5.9%;
+	color: #707070; 
+	font-size: 22px;
+	font-weight: 400;
+}
